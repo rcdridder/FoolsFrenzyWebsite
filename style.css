@@ -1,0 +1,74 @@
+html {
+    background-color: black;
+    color: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar {
+    position: fixed;
+    height: 50px;
+    max-width: 1080px;
+    width: 100%;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.navbar img {
+    height: 50px;
+}
+
+.navbar a, .contact a {
+    margin: 1em;
+    text-decoration: underline;
+    color: lightgray;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+.bio {
+    max-width: 1080px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bio img {
+    max-height: 250px;
+    width: fit-content;
+}
+
+.bio p {
+    text-align: center;
+}
+
+.music {
+    max-width: 1080px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gigs {
+    max-width: 1080px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gigs table {
+    text-align: center;
+}
+
+.contact {
+    text-align: center;
+}
+
