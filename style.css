@@ -14,7 +14,7 @@ a {
 
 .navbar {
     position: fixed;
-    height: 50px;
+    height: auto;
     max-width: 1080px;
     width: 100%;
     top: 0;
@@ -22,6 +22,8 @@ a {
     justify-content: center;
     align-items: center;
     background-color: black;
+    flex-wrap: wrap;
+    z-index: 1;
 }
 
 .navbar img {
@@ -38,7 +40,7 @@ a {
 
 .bio {
     max-width: 1080px;
-    margin-top: 50px;
+    margin-top: 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -78,5 +80,6 @@ td, th {
 
 .contact {
     text-align: center;
+    margin-bottom: 50px;
 }
 
